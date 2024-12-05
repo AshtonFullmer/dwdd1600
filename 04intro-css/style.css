@@ -1,0 +1,130 @@
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+    margin: 0;
+}
+
+/* Header stuff here */
+
+header {
+    background-color: #ede7d9;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #061826;
+}
+header p {
+    margin: 0;
+    color: #061826;
+
+}
+
+/* nav stuff goes here */
+
+nav {
+    background-color: #89aae6;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #061826;
+    font-weight: 700;
+    display: block;
+    padding: .8rem 2rem;
+}
+nav li.active a {
+    background-color: #061826;
+        color: #ede7d9;
+}
+nav a:hover {
+    color: floralwhite;
+}
+
+/* stuff for the main */
+
+
+main h1 {
+    color: #ede7d9; 
+    background-color: #061826;
+    text-align: center;
+    font-size: 4rem;
+    padding: 5%;
+}
+main h2 {
+    color: #061826;
+    margin-bottom: .2rem;
+        padding: 1rem 1.6%;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+    padding-left: 2rem;
+    padding-right: 1.5rem;
+    
+}
+.intro {
+    text-align: center;
+    
+}
+main ol {
+    padding: .5rem 3%;
+    background-color: #efefef;
+}
+main dl dt {
+    color: #0471a6;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+main dl dd {
+    color: #024873;
+    font-size: .9rem;
+    margin-left: 2rem;
+}
+main ul {
+    list-style-type: circle;
+    background-color: #efefef;
+}
+main li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+    margin-left: 1.4rem;
+}
+main address {
+    font-style: normal;
+    background-color: #ede7d9;
+    padding: .5rem;
+    width: 200px;
+    border: 1px solid #204973;
+    border-radius: 5px;
+    margin-left: 2rem;
+    
+}
+main a {
+    color: #024873;
+}
+main a:hover {
+    color: royalblue;
+}
+
+/* Footer stuff here */
+footer {
+    background-color: #ede7d9;
+    text-align: center;
+    color: #024873;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: #024873;
+}
