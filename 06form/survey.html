@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Utah Smash Hub: Home</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Start of the page header  -->
+        
+        <header>
+            <h1>Utah Smash Hub</h1>
+            <p>Your Source for Everything Utah Smash</p>
+        </header>
+        <!-- Start of the page nav  -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Utah Smash</a></li>
+                <li><a href="tournaments.html">Tournaments</a></li>
+                <li><a href="rankings.html">Rankings</a></li>
+                <li class="active"><a href="survey.html">Survey</a></li>
+            
+            </ul>
+        </nav>
+        <!-- Start of the page content  -->
+        <main>
+        <h1>Survey</h1>
+        <form method="get" class="myForm" action="thanks.html">
+        
+            
+        <fieldset>
+        <legend>User Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>Cell Number (Optional)<input type="tel" name="phone"></label>
+        <label>Email (Optional)<input type="email" name="email"></label>
+        </fieldset>  
+            
+         <fieldset>
+            <legend>What is your sex / gender?</legend>
+            <label><input type="radio" name="method" value="male">Male</label>
+            <label><input type="radio" name="method" value="female">Female</label>
+            <label><input type="radio" name="method" value="nonbinary">Non-Binary</label>
+            <label><input type="radio" name="method" value="nosay">Prefer Not to Say</label>
+    
+        </fieldset>    
+    
+        <fieldset>
+        <legend>How did you join or originally seek interest in the Utah Smash scene?</legend>
+            <label><input type="radio" name="method" value="friend">Through a Friend</label>
+            <label><input type="radio" name="method" value="online">Through Online (Twitter, YouTube, etc.)</label>
+            <label><input type="radio" name="method" value="self">Through Self-Interest</label>
+        </fieldset>
+            
+        <fieldset>
+        <legend>Which games are you currently playing / seeking to play?</legend>    
+            <label><input type="Checkbox" name="smashult" value="chosen">Super Smash Bros. Ultimate</label>
+            <label><input type="Checkbox" name="melee" value="chosen">Super Smash Bros. Melee</label>
+            <label><input type="Checkbox" name="rivals" value="chosen">Rivals of Aether 2</label>
+            
+            <label>How familiar are you with these games?
+            <select name="time">
+            <option value="none">Please Select</option>
+            <option value="noexp">No Experience</option>
+            <option value="beginner">Beginner</option>
+            <option value="rookie">Rookie</option>
+            <option value="pro">Professional</option>
+            </select>
+            </label>
+            
+        </fieldset>
+            
+        <fieldset>
+        <label>How informative and friendly was this site? Are there any aspects we can improve upon?
+        <textarea name="comments"></textarea>    
+        </label>
+        </fieldset>
+            
+            
+            
+        <input type="submit" value="Submit Survey Answers">
+        </form>
+        <!-- Start of the page footer  -->
+        <footer>
+        <p>&copy; 2024 &bull; Ashton Fullmer &bull; <a href="mailto:akf04@gmail.com">Email Us</a></p>
+        </footer>
+    </body>
+</html>
